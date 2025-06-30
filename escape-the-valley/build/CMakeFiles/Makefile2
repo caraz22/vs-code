@@ -62,11 +62,11 @@ CMAKE_BINARY_DIR = C:\Users\cszok\Source\repos\vs-code\escape-the-valley\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/escape-the-valley.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen:
+codegen: CMakeFiles/escape-the-valley.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,8 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean:
+clean: CMakeFiles/escape-the-valley.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/escape-the-valley.dir
+
+# All Build rule for target.
+CMakeFiles/escape-the-valley.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\cszok\Source\repos\vs-code\escape-the-valley\build\CMakeFiles --progress-num=1,2 "Built target escape-the-valley"
+.PHONY : CMakeFiles/escape-the-valley.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/escape-the-valley.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cszok\Source\repos\vs-code\escape-the-valley\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/escape-the-valley.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cszok\Source\repos\vs-code\escape-the-valley\build\CMakeFiles 0
+.PHONY : CMakeFiles/escape-the-valley.dir/rule
+
+# Convenience name for target.
+escape-the-valley: CMakeFiles/escape-the-valley.dir/rule
+.PHONY : escape-the-valley
+
+# codegen rule for target.
+CMakeFiles/escape-the-valley.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\cszok\Source\repos\vs-code\escape-the-valley\build\CMakeFiles --progress-num=1,2 "Finished codegen for target escape-the-valley"
+.PHONY : CMakeFiles/escape-the-valley.dir/codegen
+
+# clean rule for target.
+CMakeFiles/escape-the-valley.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/clean
+.PHONY : CMakeFiles/escape-the-valley.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

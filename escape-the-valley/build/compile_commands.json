@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/cszok/Source/repos/vs-code/escape-the-valley/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/escape-the-valley.dir/includes_CXX.rsp -g -o CMakeFiles\\escape-the-valley.dir\\src\\main.cpp.obj -c C:\\Users\\cszok\\Source\\repos\\vs-code\\escape-the-valley\\src\\main.cpp",
+  "file": "C:/Users/cszok/Source/repos/vs-code/escape-the-valley/src/main.cpp",
+  "output": "CMakeFiles/escape-the-valley.dir/src/main.cpp.obj"
+}
+]
