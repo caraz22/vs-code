@@ -879,7 +879,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "escape-the-valley"
+			"value" : "Escape the Valley"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1272,6 +1272,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "Escape the Valley_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/cszok/Source/repos/vs-code/escape-the-valley/build"
+		},
+		{
+			"name" : "Escape the Valley_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Escape the Valley_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/cszok/Source/repos/vs-code/escape-the-valley"
 		},
 		{
 			"name" : "Project_BINARY_DIR",

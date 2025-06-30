@@ -156,7 +156,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=escape-the-valley
+CMAKE_PROJECT_NAME:STATIC=Escape the Valley
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/msys64/ucrt64/bin/ranlib.exe
@@ -240,6 +240,15 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+Escape the Valley_BINARY_DIR:STATIC=C:/Users/cszok/Source/repos/vs-code/escape-the-valley/build
+
+//Value Computed by CMake
+Escape the Valley_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Escape the Valley_SOURCE_DIR:STATIC=C:/Users/cszok/Source/repos/vs-code/escape-the-valley
 
 //Value Computed by CMake
 Project_BINARY_DIR:STATIC=C:/Users/cszok/Source/repos/vs-code/escape-the-valley/build
