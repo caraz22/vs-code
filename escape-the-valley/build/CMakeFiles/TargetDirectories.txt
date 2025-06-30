@@ -1,0 +1,2 @@
+C:/Users/cszok/Source/repos/vs-code/escape-the-valley/build/CMakeFiles/edit_cache.dir
+C:/Users/cszok/Source/repos/vs-code/escape-the-valley/build/CMakeFiles/rebuild_cache.dir
