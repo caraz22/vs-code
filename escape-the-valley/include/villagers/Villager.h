@@ -32,7 +32,6 @@ class Villager {
     string getHomeAddress();
     bool getMarriageable();
     string getIntroDialogue();
-    Season getBirthSeason();
 
     string speak(string);
 };

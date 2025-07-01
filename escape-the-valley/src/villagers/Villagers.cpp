@@ -35,6 +35,10 @@ bool Villager::getMarriageable() {
     return marriageable;
 }
 
+string Villager::getIntroDialogue() {
+    return introDialogue;
+}
+
 string Villager::speak(string dialogue) {
     return name + ": " + dialogue;
 }
