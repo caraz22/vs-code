@@ -28,19 +28,20 @@ int main() {
     }
     
     // fast
-    testPrint("You are on a train headed towards some town that you can't remember the name of, even though you're going there right now.");
+    fastPrint("You are on a train headed towards some town that you can't remember the name of, even though you're going there right now.");
     
     bool repeatRing = true;
 
     while (repeatRing) {
         for (int i = 0; i < 3; i++) {
             // slow
-            testPrint("Bzzzzzt...");
+            slowPrint("Bzzzzzt...");
             this_thread::sleep_for(chrono::milliseconds(100));
         }    
         
+        cout << "Looks like your phone is ringing, will you answer it?" << endl;
         while (true) {
-            cout << "Will you answer it? [Yes or No] ";
+            cout << "[Yes or No] ";
             string answer;  
             getline(cin, answer);
             if (answer == "Yes" || answer == "yes") {
@@ -50,7 +51,7 @@ int main() {
                 cout << "You ignored the call." << endl;
                 this_thread::sleep_for(chrono::milliseconds(1000));
                 // verySlow
-                testPrint("...");
+                verySlowPrint("...");
                 this_thread::sleep_for(chrono::milliseconds(1500));
                 break;
             } else {
@@ -60,9 +61,10 @@ int main() {
     }
 
     // fast
-    testPrint("?: Hello? Is this... uh... sorry, what's your name? ");
+    fastPrint("?: Hello? Is this... uh... sorry, what's your name? ");
 
     string playerName;
+    cout << "[What's your name?] ";
     cin >> playerName;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
@@ -70,17 +72,18 @@ int main() {
 
     vector<string> lewisPhoneCall = lewis.phoneCall(farmer);
     // fast
-    testPrint(lewisPhoneCall[0]);
+    fastPrint(lewisPhoneCall[0]);
 
     while (true) {
-        cout << "[Yes or No] ";
+        cout << "[Yes or No]: ";
         string correct;
         getline(cin, correct);
         if (correct == "Yes" || correct == "yes") {
             break;
         } else if (correct == "No" || correct == "no") {
             // fast
-            testPrint(lewisPhoneCall[1]);
+            fastPrint(lewisPhoneCall[1]);
+            cout << "[What's your ACTUAL name?] ";
             string correctName;
             cin >> correctName;
             farmer.setName(correctName);
@@ -92,9 +95,9 @@ int main() {
     }
 
     // fast
-    testPrint(lewisPhoneCall[2]);
-    testPrint(lewisPhoneCall[3]);
-    testPrint(lewisPhoneCall[4]);
+    fastPrint(lewisPhoneCall[2]);
+    fastPrint(lewisPhoneCall[3]);
+    fastPrint(lewisPhoneCall[4]);
 
     return 0;
 }
