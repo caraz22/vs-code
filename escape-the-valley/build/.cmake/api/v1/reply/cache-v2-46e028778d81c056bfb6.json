@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Project"
+			"value" : "C:/Program Files (x86)/Escape the Valley"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1310,42 +1310,6 @@
 			"value" : "C:/Users/cszok/Source/repos/vs-code/escape-the-valley"
 		},
 		{
-			"name" : "Project_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/cszok/Source/repos/vs-code/escape-the-valley/build"
-		},
-		{
-			"name" : "Project_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Project_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/cszok/Source/repos/vs-code/escape-the-valley"
-		},
-		{
 			"name" : "_CMAKE_CXX_LINKER_PUSHPOP_STATE_SUPPORTED",
 			"properties" : 
 			[
@@ -1380,42 +1344,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
-		},
-		{
-			"name" : "escape-the-valley_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/cszok/Source/repos/vs-code/escape-the-valley/build"
-		},
-		{
-			"name" : "escape-the-valley_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "escape-the-valley_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/cszok/Source/repos/vs-code/escape-the-valley"
 		}
 	],
 	"kind" : "cache",

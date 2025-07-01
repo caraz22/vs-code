@@ -128,6 +128,30 @@ escape-the-valley/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/build
 .PHONY : escape-the-valley/fast
 
+src/farmer/Player.obj: src/farmer/Player.cpp.obj
+.PHONY : src/farmer/Player.obj
+
+# target to build an object file
+src/farmer/Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/src/farmer/Player.cpp.obj
+.PHONY : src/farmer/Player.cpp.obj
+
+src/farmer/Player.i: src/farmer/Player.cpp.i
+.PHONY : src/farmer/Player.i
+
+# target to preprocess a source file
+src/farmer/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/src/farmer/Player.cpp.i
+.PHONY : src/farmer/Player.cpp.i
+
+src/farmer/Player.s: src/farmer/Player.cpp.s
+.PHONY : src/farmer/Player.s
+
+# target to generate assembly for a file
+src/farmer/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/src/farmer/Player.cpp.s
+.PHONY : src/farmer/Player.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... escape-the-valley
+	@echo ... src/farmer/Player.obj
+	@echo ... src/farmer/Player.i
+	@echo ... src/farmer/Player.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

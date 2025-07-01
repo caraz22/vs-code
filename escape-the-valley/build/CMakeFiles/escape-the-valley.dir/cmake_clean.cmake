@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/escape-the-valley.dir/src/farmer/Player.cpp.obj"
+  "CMakeFiles/escape-the-valley.dir/src/farmer/Player.cpp.obj.d"
   "CMakeFiles/escape-the-valley.dir/src/main.cpp.obj"
   "CMakeFiles/escape-the-valley.dir/src/main.cpp.obj.d"
   "escape-the-valley.exe"
