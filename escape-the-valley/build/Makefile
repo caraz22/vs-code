@@ -176,6 +176,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/villagers/Lewis.obj: src/villagers/Lewis.cpp.obj
+.PHONY : src/villagers/Lewis.obj
+
+# target to build an object file
+src/villagers/Lewis.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.obj
+.PHONY : src/villagers/Lewis.cpp.obj
+
+src/villagers/Lewis.i: src/villagers/Lewis.cpp.i
+.PHONY : src/villagers/Lewis.i
+
+# target to preprocess a source file
+src/villagers/Lewis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.i
+.PHONY : src/villagers/Lewis.cpp.i
+
+src/villagers/Lewis.s: src/villagers/Lewis.cpp.s
+.PHONY : src/villagers/Lewis.s
+
+# target to generate assembly for a file
+src/villagers/Lewis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.s
+.PHONY : src/villagers/Lewis.cpp.s
+
+src/villagers/Villagers.obj: src/villagers/Villagers.cpp.obj
+.PHONY : src/villagers/Villagers.obj
+
+# target to build an object file
+src/villagers/Villagers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.obj
+.PHONY : src/villagers/Villagers.cpp.obj
+
+src/villagers/Villagers.i: src/villagers/Villagers.cpp.i
+.PHONY : src/villagers/Villagers.i
+
+# target to preprocess a source file
+src/villagers/Villagers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.i
+.PHONY : src/villagers/Villagers.cpp.i
+
+src/villagers/Villagers.s: src/villagers/Villagers.cpp.s
+.PHONY : src/villagers/Villagers.s
+
+# target to generate assembly for a file
+src/villagers/Villagers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\escape-the-valley.dir\build.make CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.s
+.PHONY : src/villagers/Villagers.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +239,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/villagers/Lewis.obj
+	@echo ... src/villagers/Lewis.i
+	@echo ... src/villagers/Lewis.s
+	@echo ... src/villagers/Villagers.obj
+	@echo ... src/villagers/Villagers.i
+	@echo ... src/villagers/Villagers.s
 .PHONY : help
 
 

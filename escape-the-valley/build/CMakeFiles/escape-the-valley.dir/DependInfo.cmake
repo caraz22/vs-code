@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/cszok/Source/repos/vs-code/escape-the-valley/src/farmer/Player.cpp" "CMakeFiles/escape-the-valley.dir/src/farmer/Player.cpp.obj" "gcc" "CMakeFiles/escape-the-valley.dir/src/farmer/Player.cpp.obj.d"
   "C:/Users/cszok/Source/repos/vs-code/escape-the-valley/src/main.cpp" "CMakeFiles/escape-the-valley.dir/src/main.cpp.obj" "gcc" "CMakeFiles/escape-the-valley.dir/src/main.cpp.obj.d"
+  "C:/Users/cszok/Source/repos/vs-code/escape-the-valley/src/villagers/Lewis.cpp" "CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.obj" "gcc" "CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.obj.d"
+  "C:/Users/cszok/Source/repos/vs-code/escape-the-valley/src/villagers/Villagers.cpp" "CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.obj" "gcc" "CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

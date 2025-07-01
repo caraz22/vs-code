@@ -101,21 +101,55 @@ CMakeFiles/escape-the-valley.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/escape-the-valley.dir/src/main.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cszok\Source\repos\vs-code\escape-the-valley\src\main.cpp -o CMakeFiles\escape-the-valley.dir\src\main.cpp.s
 
+CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.obj: CMakeFiles/escape-the-valley.dir/flags.make
+CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.obj: CMakeFiles/escape-the-valley.dir/includes_CXX.rsp
+CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.obj: C:/Users/cszok/Source/repos/vs-code/escape-the-valley/src/villagers/Lewis.cpp
+CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.obj: CMakeFiles/escape-the-valley.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cszok\Source\repos\vs-code\escape-the-valley\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.obj -MF CMakeFiles\escape-the-valley.dir\src\villagers\Lewis.cpp.obj.d -o CMakeFiles\escape-the-valley.dir\src\villagers\Lewis.cpp.obj -c C:\Users\cszok\Source\repos\vs-code\escape-the-valley\src\villagers\Lewis.cpp
+
+CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cszok\Source\repos\vs-code\escape-the-valley\src\villagers\Lewis.cpp > CMakeFiles\escape-the-valley.dir\src\villagers\Lewis.cpp.i
+
+CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cszok\Source\repos\vs-code\escape-the-valley\src\villagers\Lewis.cpp -o CMakeFiles\escape-the-valley.dir\src\villagers\Lewis.cpp.s
+
+CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.obj: CMakeFiles/escape-the-valley.dir/flags.make
+CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.obj: CMakeFiles/escape-the-valley.dir/includes_CXX.rsp
+CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.obj: C:/Users/cszok/Source/repos/vs-code/escape-the-valley/src/villagers/Villagers.cpp
+CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.obj: CMakeFiles/escape-the-valley.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cszok\Source\repos\vs-code\escape-the-valley\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.obj -MF CMakeFiles\escape-the-valley.dir\src\villagers\Villagers.cpp.obj.d -o CMakeFiles\escape-the-valley.dir\src\villagers\Villagers.cpp.obj -c C:\Users\cszok\Source\repos\vs-code\escape-the-valley\src\villagers\Villagers.cpp
+
+CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cszok\Source\repos\vs-code\escape-the-valley\src\villagers\Villagers.cpp > CMakeFiles\escape-the-valley.dir\src\villagers\Villagers.cpp.i
+
+CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cszok\Source\repos\vs-code\escape-the-valley\src\villagers\Villagers.cpp -o CMakeFiles\escape-the-valley.dir\src\villagers\Villagers.cpp.s
+
 # Object files for target escape-the-valley
 escape__the__valley_OBJECTS = \
 "CMakeFiles/escape-the-valley.dir/src/farmer/Player.cpp.obj" \
-"CMakeFiles/escape-the-valley.dir/src/main.cpp.obj"
+"CMakeFiles/escape-the-valley.dir/src/main.cpp.obj" \
+"CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.obj" \
+"CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.obj"
 
 # External object files for target escape-the-valley
 escape__the__valley_EXTERNAL_OBJECTS =
 
 escape-the-valley.exe: CMakeFiles/escape-the-valley.dir/src/farmer/Player.cpp.obj
 escape-the-valley.exe: CMakeFiles/escape-the-valley.dir/src/main.cpp.obj
+escape-the-valley.exe: CMakeFiles/escape-the-valley.dir/src/villagers/Lewis.cpp.obj
+escape-the-valley.exe: CMakeFiles/escape-the-valley.dir/src/villagers/Villagers.cpp.obj
 escape-the-valley.exe: CMakeFiles/escape-the-valley.dir/build.make
 escape-the-valley.exe: CMakeFiles/escape-the-valley.dir/linkLibs.rsp
 escape-the-valley.exe: CMakeFiles/escape-the-valley.dir/objects1.rsp
 escape-the-valley.exe: CMakeFiles/escape-the-valley.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\cszok\Source\repos\vs-code\escape-the-valley\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable escape-the-valley.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\cszok\Source\repos\vs-code\escape-the-valley\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable escape-the-valley.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\escape-the-valley.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
