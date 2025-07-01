@@ -28,7 +28,7 @@ int main() {
     }
     
     // fast
-    fastPrint("You are on a train headed towards some town that you can't remember the name of, even though you're going there right now.");
+    fastPrint("You are on a bus headed towards some town that you can't remember the name of, even though you're going there right now.");
     
     bool repeatRing = true;
 
