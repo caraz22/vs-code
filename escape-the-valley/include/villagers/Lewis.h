@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Villager.h"
-#include "../farmer/Player.h"
+#include "farmer/Player.h"
 
 class Lewis : public Villager {
     public:

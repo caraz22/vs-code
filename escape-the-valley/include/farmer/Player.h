@@ -10,7 +10,7 @@ class Player {
     int amountOfGold = 0;
 
     public:
-    Player();
+    Player() { }
     
     Player(string);
 
