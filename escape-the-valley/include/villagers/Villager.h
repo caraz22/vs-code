@@ -28,4 +28,6 @@ class Villager {
     string getHomeAddress();
     bool getMarriageable();
     string getIntroDialogue();
+
+    string speak(string);
 };

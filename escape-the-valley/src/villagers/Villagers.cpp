@@ -32,3 +32,7 @@ string Villager::getHomeAddress() {
 bool Villager::getMarriageable() {
     return marriageable;
 }
+
+string Villager::speak(string dialogue) {
+    return name + ": " + dialogue;
+}

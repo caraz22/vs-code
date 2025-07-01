@@ -12,8 +12,8 @@ vector<string> Lewis::phoneCall(Player farmer) {
     string line1 = "?: Ah right, " + farmer.getName() + ", just the person I wanted to speak to. Did I pronounce that correctly? ";
     string line2 = "?: Oh I'm sorry, could you repeat that for me then?";
     string line3 = "?: Great, " + farmer.getName() + ", got it.";
-    string line4 = "Lewis: My name is Lewis, I'm the mayor of Pelican Town. I just wanted to let you know that I got our local carpenter to fix up your grandpa's old house.";
-    string line5 = "Lewis: Anyways, we're all so excited to have a new face here in Stardew Valley! See you soon, bye.";
+    string line4 = this->speak("My name is Lewis, I'm the mayor of Pelican Town. I just wanted to let you know that I got our local carpenter to fix up your grandpa's old house.");
+    string line5 = this->speak("Anyways, we're all so excited to have a new face here in Stardew Valley! See you soon, bye.");
 
     phoneCallLines.push_back(line1);
     phoneCallLines.push_back(line2);
