@@ -29,9 +29,9 @@ int main() {
     // fast
     testPrint("You are on a train headed towards some town that you can't remember the name of, even though you're going there right now.");
     
-    bool repeat = true;
-    
-    while (repeat) {
+    bool repeatRing = true;
+
+    while (repeatRing) {
         for (int i = 0; i < 3; i++) {
             // slow
             testPrint("Bzzzzzt...");
@@ -43,7 +43,7 @@ int main() {
             string answer;  
             getline(cin, answer);
             if (answer == "Yes" || answer == "yes") {
-                repeat = false;
+                repeatRing = false;
                 break;
             } else if (answer == "No" || answer == "no") {
                 cout << "You ignored the call." << endl;
@@ -58,7 +58,8 @@ int main() {
         }
     }
 
-    fastPrint("Hello? Is this... uh... sorry, what's your name? ");
+    // fast
+    testPrint("?: Hello? Is this... uh... sorry, what's your name? ");
 
     string playerName;
     cin >> playerName;
@@ -66,9 +67,31 @@ int main() {
     Player farmer(playerName);
 
     vector<string> lewisPhoneCall = lewis.phoneCall(farmer);
-    fastPrint(lewisPhoneCall[0]);
-    fastPrint(lewisPhoneCall[1]);
-    fastPrint(lewisPhoneCall[2]);
+    // fast
+    testPrint(lewisPhoneCall[0]);
+
+    // do {
+    //     cout << "[Yes or No] ";       
+    //     string confirmation;   
+    //     getline(cin, confirmation);     
+    // } while (true) {
+    //     if (confirmation == "No" || confirmation == "no") {
+    //         fastPrint(lewisPhoneCall[1]);
+    //         string correctName;
+    //         cin >> correctName;
+    //         farmer.setName(correctName);
+    //         break;
+    //     } else if (confirmation == "Yes" || confirmation == "yes") {
+    //         break;
+    //     } else {
+    //         continue;
+    //     }        
+    // }
+
+    // fast
+    testPrint(lewisPhoneCall[2]);
+    testPrint(lewisPhoneCall[3]);
+    testPrint(lewisPhoneCall[4]);
 
     return 0;
 }

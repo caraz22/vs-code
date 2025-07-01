@@ -1,5 +1,4 @@
 #pragma once
-
 #include "Villager.h"
 #include "../farmer/Player.h"
 

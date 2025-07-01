@@ -2,7 +2,10 @@
 
 Player::Player(string farmerName) {
     name = farmerName;
-    amountOfGold = 0;
+}
+
+void Player::setName(string farmerName) {
+    name = farmerName;
 }
 
 string Player::getName() {
