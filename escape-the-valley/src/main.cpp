@@ -4,6 +4,7 @@
 #include <cstdlib>
 #include <conio.h>
 #include <algorithm>
+#include <limits>
 
 #include "farmer/Player.h"
 #include "villagers/Lewis.h"
@@ -63,6 +64,7 @@ int main() {
 
     string playerName;
     cin >> playerName;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
     Player farmer(playerName);
 
@@ -70,23 +72,24 @@ int main() {
     // fast
     testPrint(lewisPhoneCall[0]);
 
-    // do {
-    //     cout << "[Yes or No] ";       
-    //     string confirmation;   
-    //     getline(cin, confirmation);     
-    // } while (true) {
-    //     if (confirmation == "No" || confirmation == "no") {
-    //         fastPrint(lewisPhoneCall[1]);
-    //         string correctName;
-    //         cin >> correctName;
-    //         farmer.setName(correctName);
-    //         break;
-    //     } else if (confirmation == "Yes" || confirmation == "yes") {
-    //         break;
-    //     } else {
-    //         continue;
-    //     }        
-    // }
+    while (true) {
+        cout << "[Yes or No] ";
+        string correct;
+        getline(cin, correct);
+        if (correct == "Yes" || correct == "yes") {
+            break;
+        } else if (correct == "No" || correct == "no") {
+            // fast
+            testPrint(lewisPhoneCall[1]);
+            string correctName;
+            cin >> correctName;
+            farmer.setName(correctName);
+            lewisPhoneCall = lewis.phoneCall(farmer);
+            break;
+        } else {
+            continue;
+        }
+    }
 
     // fast
     testPrint(lewisPhoneCall[2]);
