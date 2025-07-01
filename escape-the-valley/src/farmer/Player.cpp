@@ -2,6 +2,7 @@
 
 Player::Player(string farmerName) {
     name = farmerName;
+    amountOfGold = 0;
 }
 
 string Player::getName() {

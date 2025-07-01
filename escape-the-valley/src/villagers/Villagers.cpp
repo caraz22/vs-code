@@ -13,6 +13,10 @@ void Villager::setHomeAddress(int addressNum, string street) {
     homeAddress = to_string(addressNum) + " " + street;
 }
 
+void Villager::setIntroDialogue(string villagerDialogue) {
+    introDialogue = villagerDialogue;
+}
+
 string Villager::getName() {
     return name;
 }

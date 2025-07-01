@@ -12,6 +12,7 @@ class Villager {
     string homeAddress;
     bool marriageable;
     vector<Villager> family;
+    string introDialogue;
 
     public:
     Villager();
@@ -20,9 +21,11 @@ class Villager {
 
     // void setBirthday(Season, int);
     void setHomeAddress(int, string);
+    void setIntroDialogue(string);
     
     string getName();
     string getBirthday();
     string getHomeAddress();
     bool getMarriageable();
+    string getIntroDialogue();
 };

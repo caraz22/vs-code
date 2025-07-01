@@ -10,6 +10,8 @@ class Player {
     int amountOfGold;
 
     public:
+    Player();
+    
     Player(string);
 
     string getName();

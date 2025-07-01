@@ -6,6 +6,7 @@
 #include <algorithm>
 
 #include "farmer/Player.h"
+#include "villagers/Lewis.h"
 
 using namespace std;
 
@@ -25,13 +26,15 @@ int main() {
         system("cls");
     }
     
+    // fast
     testPrint("You are on a train headed towards some town that you can't remember the name of, even though you're going there right now.");
     
     bool repeat = true;
     
     while (repeat) {
         for (int i = 0; i < 3; i++) {
-            slowPrint("Bzzzzzt...");
+            // slow
+            testPrint("Bzzzzzt...");
             this_thread::sleep_for(chrono::milliseconds(100));
         }    
         
@@ -45,7 +48,8 @@ int main() {
             } else if (answer == "No" || answer == "no") {
                 cout << "You ignored the call." << endl;
                 this_thread::sleep_for(chrono::milliseconds(1000));
-                verySlowPrint("...");
+                // verySlow
+                testPrint("...");
                 this_thread::sleep_for(chrono::milliseconds(1500));
                 break;
             } else {
@@ -54,7 +58,17 @@ int main() {
         }
     }
 
+    fastPrint("Hello? Is this... uh... sorry, what's your name? ");
 
+    string playerName;
+    cin >> playerName;
+
+    Player farmer(playerName);
+
+    vector<string> lewisPhoneCall = lewis.phoneCall(farmer);
+    fastPrint(lewisPhoneCall[0]);
+    fastPrint(lewisPhoneCall[1]);
+    fastPrint(lewisPhoneCall[2]);
 
     return 0;
 }
