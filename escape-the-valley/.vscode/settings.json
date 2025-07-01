@@ -3,5 +3,5 @@
         "*.h": "cpp",
         "iostream": "cpp",
         "limits": "cpp"
-    }
+    },
 }
