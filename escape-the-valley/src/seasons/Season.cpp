@@ -8,4 +8,8 @@ int Season::getYear() {
     return year;
 }
 
+string Season::toString() {
+    return name;
+}
+
 // void Season::newYear() { }

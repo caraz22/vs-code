@@ -3,24 +3,28 @@
 #include <string>
 #include <vector>
 
+#include "seasons/Season.h"
+
 using namespace std;
 
 class Villager {
     private:
     string name;
-    string birthday;
+    Season birthSeason;
+    int birthDay;
     string homeAddress;
     bool marriageable;
     vector<Villager> family;
     string introDialogue;
 
     public:
-    Villager();
+    Villager() { }
 
     Villager(string, bool);
 
     // void setBirthday(Season, int);
     void setHomeAddress(int, string);
+    void setBirthday(Season, int);
     void setIntroDialogue(string);
     
     string getName();
@@ -28,6 +32,7 @@ class Villager {
     string getHomeAddress();
     bool getMarriageable();
     string getIntroDialogue();
+    Season getBirthSeason();
 
     string speak(string);
 };

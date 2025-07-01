@@ -10,11 +10,13 @@ class Season {
     int year = 1;
 
     public:
-    Season();
+    Season() { }
 
     Season(string);
 
     int getYear();
+
+    string toString();
 
     // void newYear();
 };

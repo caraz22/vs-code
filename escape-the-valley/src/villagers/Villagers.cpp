@@ -5,12 +5,13 @@ Villager::Villager(string villagerName, bool isMarriageable) {
     marriageable = isMarriageable;
 }
 
-// void Villager::setBirthday(Season birthSeason, int day) {
-//     birthday = birthSeason.getName() + " " + to_string(day);
-// }
-
 void Villager::setHomeAddress(int addressNum, string street) {
     homeAddress = to_string(addressNum) + " " + street;
+}
+
+void Villager::setBirthday(Season seasonOfBirth, int dayOfBirth) {
+    birthSeason = seasonOfBirth;
+    birthDay = dayOfBirth;
 }
 
 void Villager::setIntroDialogue(string villagerDialogue) {
@@ -22,6 +23,7 @@ string Villager::getName() {
 }
 
 string Villager::getBirthday() {
+    string birthday = birthSeason.toString() + " " + to_string(birthDay);
     return birthday;
 }
 
