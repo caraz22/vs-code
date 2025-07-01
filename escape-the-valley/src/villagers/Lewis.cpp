@@ -18,6 +18,8 @@ vector<string> Lewis::phoneCall(Player farmer) {
     phoneCallLines.push_back(line1);
     phoneCallLines.push_back(line2);
     phoneCallLines.push_back(line3);
+    phoneCallLines.push_back(line4);
+    phoneCallLines.push_back(line5);
 
     return phoneCallLines;
 }
