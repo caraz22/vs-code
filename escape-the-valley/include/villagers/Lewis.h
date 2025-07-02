@@ -8,6 +8,7 @@ class Lewis : public Villager {
     Lewis();
 
     vector<string> phoneCall(Player);
+    vector<string> introCutscene(Player farmer);
 };
 
 extern Lewis lewis;

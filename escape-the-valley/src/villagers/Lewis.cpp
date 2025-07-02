@@ -23,3 +23,13 @@ vector<string> Lewis::phoneCall(Player farmer) {
 
     return phoneCallLines;
 }
+
+vector<string> Lewis::introCutscene(Player farmer) {
+    vector<string> cutsceneLines;
+
+    string line1 = "";
+}
+
+void Villager::setIntroDialogue(string lewisIntroDial) {
+    introDialogue = this->speak("So, how was your first night in the old cottage? Your grandpa used to complain about the rickety old bed. But I think, deep down, he actually loved that house.");
+}
