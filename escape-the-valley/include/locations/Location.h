@@ -3,11 +3,9 @@
 #include <string>
 #include <vector>
 
-using namespace std;
-
 class Location {
     private:
-    string name;
+    std::string name;
     Location* currentLocation;
     Location* targetLocation;
     bool isCurrentLocation;
@@ -15,21 +13,21 @@ class Location {
     Location* eastLoc;
     Location* southLoc;
     Location* westLoc;
-    vector<string> relativeLocations;
+    std::vector<std::string> relativeLocations;
 
     public:
     Location() { }
 
-    Location(string);
+    Location(std::string);
 
     void setCurrentLocation(Location*);
     void setTargetLocation(Location*);
     void setRelativeLocations(Location*, Location*, Location*, Location*);
 
-    string getLocationName();
+    std::string getLocationName();
     Location* getCurrentLocation();
-    vector<string> getRelativeLocations();
+    std::vector<std::string> getRelativeLocations();
 
     void switchingLocations();    
-    string toString();
+    std::string toString();
 };

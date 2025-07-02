@@ -3,6 +3,8 @@
 #include "villagers/Robin.h"
 #include "locations/Locations.h"
 
+using namespace std;
+
 Robin robin;
 
 Robin::Robin()

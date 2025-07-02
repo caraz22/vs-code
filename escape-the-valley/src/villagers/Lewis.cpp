@@ -2,6 +2,8 @@
 
 #include "villagers/Lewis.h"
 
+using namespace std;
+
 Lewis lewis;
 
 Lewis::Lewis()

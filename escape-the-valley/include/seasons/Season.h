@@ -2,21 +2,19 @@
 
 #include <string>
 
-using namespace std;
-
 class Season {
     private:
-    string name;
+    std::string name;
     int year = 1;
 
     public:
     Season() { }
 
-    Season(string);
+    Season(std::string);
 
     int getYear();
 
-    string toString();
+    std::string toString();
 
     // void newYear();
 };

@@ -2,21 +2,19 @@
 
 #include <string>
 
-using namespace std;
-
 class Player {
     private:
-    string name;
+    std::string name;
     int amountOfGold = 0;
 
     public:
     Player() { }
     
-    Player(string);
+    Player(std::string);
 
-    void setName(string);
+    void setName(std::string);
 
-    string getName();
+    std::string getName();
     int getAmountOfGold();
 
     void adjustGold(int, bool);

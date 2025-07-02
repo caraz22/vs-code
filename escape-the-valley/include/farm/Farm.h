@@ -2,11 +2,9 @@
 
 #include <string>
 
-using namespace std;
-
 class Farm {
     private:
-    string name;
+    std::string name;
 
     
 

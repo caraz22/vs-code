@@ -1,4 +1,7 @@
+#include <string>
 #include "farmer/Player.h"
+
+using namespace std;
 
 Player::Player(string farmerName) {
     name = farmerName;

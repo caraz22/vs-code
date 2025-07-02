@@ -5,33 +5,31 @@
 
 #include "seasons/Season.h"
 
-using namespace std;
-
 class Villager {
     private:
-    string name;
+    std::string name;
     Season birthSeason;
     int birthDay;
-    string homeAddress;
+    std::string homeAddress;
     bool marriageable;
-    vector<Villager> family;
-    string introDialogue;
+    std::vector<Villager> family;
+    std::string introDialogue;
 
     public:
     Villager() { }
 
-    Villager(string, bool);
+    Villager(std::string, bool);
 
     // void setBirthday(Season, int);
-    void setHomeAddress(int, string);
+    void setHomeAddress(int, std::string);
     void setBirthday(Season, int);
-    void setIntroDialogue(string);
+    void setIntroDialogue(std::string);
     
-    string getName();
-    string getBirthday();
-    string getHomeAddress();
+    std::string getName();
+    std::string getBirthday();
+    std::string getHomeAddress();
     bool getMarriageable();
-    string getIntroDialogue();
+    std::string getIntroDialogue();
 
-    string speak(string);
+    std::string speak(std::string);
 };

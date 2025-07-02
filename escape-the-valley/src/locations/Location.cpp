@@ -1,5 +1,7 @@
 #include "locations/Location.h"
 
+using namespace std;
+
 Location::Location(string locationName) {
     name = locationName;
     isCurrentLocation = false;

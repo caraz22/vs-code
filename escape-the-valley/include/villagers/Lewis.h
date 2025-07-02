@@ -7,8 +7,8 @@ class Lewis : public Villager {
     public:
     Lewis();
 
-    vector<string> phoneCall(Player);
-    vector<string> introCutscene(Player farmer);
+    std::vector<std::string> phoneCall(Player);
+    std::vector<std::string> introCutscene(Player farmer);
 };
 
 extern Lewis lewis;

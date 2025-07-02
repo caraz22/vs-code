@@ -1,5 +1,7 @@
 #include "villagers/Villager.h"
 
+using namespace std;
+
 Villager::Villager(string villagerName, bool isMarriageable) {
     name = villagerName;
     marriageable = isMarriageable;

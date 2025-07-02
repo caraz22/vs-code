@@ -1,5 +1,7 @@
 #include "seasons/Season.h"
 
+using namespace std;
+
 Season::Season(string seasonName) {
     name = seasonName;
 }

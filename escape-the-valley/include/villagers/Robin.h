@@ -7,7 +7,7 @@ class Robin : public Villager {
     public:
     Robin();
 
-    vector<string> introCutscene(Player);
+    std::vector<std::string> introCutscene(Player);
 };
 
 extern Robin robin;
