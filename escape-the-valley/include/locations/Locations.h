@@ -2,11 +2,6 @@
 
 #include "Location.h"
 
-class Farm : public Location {
-    public:
-    Farm() : Location("Farm") { }
-};
-
 class BusStop: public Location {
     public:
     BusStop() : Location("Bus Stop") { }
